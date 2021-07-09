@@ -4,7 +4,7 @@ s3 = boto3.client('s3')
 
 def lambda_handler(event,context):
     try:
-        print("First line")
+        print("First commit from github")
 
         # Get the object from the event and show its content type
         bucketName = event['Records'][0]['s3']['bucket']['name']
